@@ -1,0 +1,17 @@
+.wrapper img {
+  border-radius: 10px;
+}
+.wrapper.main {
+  display: flex;
+  flex-direction: column;
+}
+.form-box.login {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+@media(max-width:398px){
+    .wrapper.main .form-box.login .btn{
+        width: 16rem;
+    }
+}

@@ -1,0 +1,8 @@
+/* .wrapper .form-box.register{
+  position: absolute;
+  transform: translateX(400px);
+} */
+.wrapper.signup{
+  height: auto;
+  margin-top: 50px;
+}
