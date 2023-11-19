@@ -33,7 +33,7 @@ const Resetpwd = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      // const url = "https://authentication-project-mern-server.onrender.com/api/auth";
+      // const url = "https://authentication-project-mern.onrender.com/api/auth";
       // const { data: res } = await axios.post(url, data);
       // localStorage.setItem("token", res.data);
       navigate("/Login");

@@ -32,7 +32,7 @@ const Signup = () => {
     e.preventDefault();
     try {
       const url =
-        "https://authentication-project-mern-server.onrender.com/api/users";
+        "https://authentication-project-mern.onrender.com/api/users";
       const { data: res } = await axios.post(url, data);
       alert("Registered Successfuly");
       navigate("/Login");
