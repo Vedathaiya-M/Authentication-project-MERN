@@ -36,7 +36,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const url =
-        "https://authentication-project-mern.onrender.com/api/auth";
+        "https://authentication-project-mern.vercel.app/api/auth";
       const { data: res } = await axios.post(url, data);
       localStorage.setItem("token", res.data);
       navigate("/Home");

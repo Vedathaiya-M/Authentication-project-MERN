@@ -32,7 +32,7 @@ const OTP = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      // const url = "https://authentication-project-mern.onrender.com/api/auth";
+      // const url = "https://authentication-project-mern.vercel.app/api/auth";
       // const { data: res } = await axios.post(url, data);
       // localStorage.setItem("token", res.data);
 
