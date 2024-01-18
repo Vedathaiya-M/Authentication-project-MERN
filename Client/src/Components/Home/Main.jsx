@@ -8,7 +8,6 @@ import sigma from "../../assets/sigma.jpg";
 
 const Main = () => {
   const navigate = useNavigate();
-  const [isOpen, setIsOpen] = useState(true);
 
   const handleLogIn = () => {
     navigate("/Login");
@@ -20,7 +19,7 @@ const Main = () => {
   return (
     <>
       <AnimatePresence>
-        {/* {isOpen && ( */}
+        
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -38,7 +37,7 @@ const Main = () => {
             </button>
           </form>
         </motion.div>
-        {/* )} */}
+        
       </AnimatePresence>
     </>
   );
