@@ -19,7 +19,6 @@ const Main = () => {
   return (
     <>
       <AnimatePresence>
-        
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -37,7 +36,6 @@ const Main = () => {
             </button>
           </form>
         </motion.div>
-        
       </AnimatePresence>
     </>
   );
